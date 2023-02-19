@@ -74,6 +74,6 @@
         <url>https://edwikifacts.jfrog.io/artifactory/dpt-libs-release-local</url>
     </repository>
 </distributionManagement>
- 
+
 
 </project>
