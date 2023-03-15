@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  MySQL:
+    build:
+      context: ./MySQL
+    image: my-mysql
+  App:
+    build:
+      context: ./tomcat
+    image: my-tomcat
+  Nginx:
+    build:
+      context: ./nginx
+    image: my-nginx
