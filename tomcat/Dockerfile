@@ -2,8 +2,7 @@ FROM ubuntu:latest
 
 # Install required packages
 RUN apt-get -y update && \
-    apt-get -y install wget unzip vim telnet tar mysql-server openjdk-11-jdk && \
-    service start mysql
+    apt-get -y install wget unzip vim telnet tar mysql-server openjdk-11-jdk
 
 # Set JAVA_HOME environment variable
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
